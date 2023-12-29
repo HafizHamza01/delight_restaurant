@@ -1,0 +1,22 @@
+.testimonial_section {
+  min-height: 70vh;
+  width: 80%;
+  margin: auto;
+  /* border: 1px solid salmon; */
+}
+.parent_testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial_img img{
+    width: 50%;
+}
+.testimonial_text{
+    width: 38%;
+    line-height: 3;
+}
+.testimonial_text pre{
+    color: #FF6868;
+    font-weight: bold;
+}

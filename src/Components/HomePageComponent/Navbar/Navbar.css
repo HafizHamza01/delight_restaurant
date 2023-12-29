@@ -1,0 +1,46 @@
+.navbar_section {
+  min-height: 9vh;
+  width: 80%;
+  margin: auto;
+}
+.nav {
+  display: flex;
+}
+.left_side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin: 1rem;
+}
+.logo {
+  display: flex;
+}
+.logo p {
+  padding: 0.5rem;
+}
+.nav_list ul {
+  display: flex;
+  gap: 30px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
+.right_side {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 1rem;
+  width: 40%;
+  gap: 30px;
+}
+.contact_button {
+  padding: 0.5rem 1.5rem;
+  background-color: #39db4a;
+  color: white;
+  border: none;
+  border-radius: 15px;
+}

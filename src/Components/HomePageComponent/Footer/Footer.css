@@ -1,0 +1,28 @@
+.footer_section{
+    min-height: 50vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.parent_footer_data_container{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.parent_footer_data_container div {
+    margin: 0 20px;
+}
+.line_height{
+    line-height: 2.5;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
